@@ -17,7 +17,7 @@ class Calculate
   def calculate_result
     mult_div_index = @array_input.find_index{|n| n.to_s.match(/\*|\/|-/)}
     if !mult_div_index
-      @result = @array_input.reduce(0) {|sum, n| sum+n.to_f }.round(2)
+      @result = sprintf("%g", @array_input.reduce(0) {|sum, n| sum+n.to_f }.round(2))
 
     elsif @array_input[mult_div_index] == "*"
       mult_result = @array_input[mult_div_index-1].to_f * @array_input[mult_div_index+1].to_f

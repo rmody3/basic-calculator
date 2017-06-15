@@ -1,0 +1,9 @@
+<h1>Welcome to The Calculator</h1>
+<p>Use any number of +,-,*, and / operations</p>
+
+<%= form_tag("/", method: "post") do %>
+  <%= text_field_tag(:input)  %>
+  <%= submit_tag("=")  %>
+<% end %>
+
+<%= "#{@input} = #{@result}" if @input %>
