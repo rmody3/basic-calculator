@@ -1,24 +1,18 @@
-# README
+## Calculator Code Challenge for BioIQ
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
 
-Things you may want to cover:
 
-* Ruby version
+#### To run:
+ - navigate to directory "calculator"
+ - run "bundle install" in terminal
+ - open up server, run "rails s" in terminal
+ - in browser, go to: http://localhost:3000/
 
-* System dependencies
+#### To run test scripts:
+- run "rspec test/models/calculate_specs.rb"
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### To View Code:
+- Model: app/models/calculate.rb
+- View: app/views/calculate/index.html.erb
+- Controller: app/controller/calculate_controller.rb
+- Tests: test/models/calculate_specs.rb
