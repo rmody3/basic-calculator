@@ -1,6 +1,6 @@
-## Calculator Code Challenge for BioIQ
+## Calculator
 
-
+calculator that accepts + , - , * , / as a string, i.e "1+4+10*3/5" 
 
 #### To run:
  - navigate to directory "calculator"
